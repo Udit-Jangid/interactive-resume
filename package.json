@@ -1,8 +1,11 @@
 {
+  "homepage": "https://Udit-Jangid.github.io/interactive-resume",
   "name": "package.json",
   "description": "React + Vite + Tailwind CSS Resume Application",
   "version": "1.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
