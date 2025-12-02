@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/interactive-resume/",
   server: {
     port: 5173,
     open: true,
