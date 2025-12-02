@@ -27,12 +27,18 @@ function ResumePage({ onLogout }) {
   useEffect(() => {
     const fetchResume = async () => {
       try {
-        const response = await fetch("/resume.json");
+        const basePath = import.meta.env.BASE_URL;
+        const response = await fetch(`${basePath}resume.json`);
+        if (!response.ok) {
+          throw new Error(`Failed to load resume: ${response.status}`);
+        }
         const data = await response.json();
         setResume(data);
         setFilteredExperience(data.experience || []);
+        setError(null);
       } catch (error) {
         console.error("Error loading resume:", error);
+        setError(`Error loading resume: ${error.message}`);
       } finally {
         setLoading(false);
       }
