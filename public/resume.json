@@ -1,0 +1,107 @@
+{
+  "personal": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "summary": "Passionate Full Stack Developer with 5+ years of experience building scalable web applications. Expertise in React, Node.js, and cloud technologies.",
+    "profileImage": "https://via.placeholder.com/150"
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Tech Innovations Inc",
+      "role": "Senior Frontend Developer",
+      "startDate": "2022-01",
+      "endDate": "present",
+      "description": "Led development of customer-facing applications using React and TypeScript. Improved performance by 40%.",
+      "skills": ["React", "TypeScript", "Tailwind CSS", "Redux"],
+      "achievements": [
+        "Architected new UI component library",
+        "Mentored 3 junior developers",
+        "Reduced bundle size by 35%"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Digital Solutions Ltd",
+      "role": "Full Stack Developer",
+      "startDate": "2020-06",
+      "endDate": "2021-12",
+      "description": "Developed end-to-end web applications with React and Node.js. Managed databases and APIs.",
+      "skills": ["React", "Node.js", "MongoDB", "PostgreSQL"],
+      "achievements": [
+        "Built 5+ production applications",
+        "Implemented CI/CD pipeline",
+        "Optimized database queries"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Startup Hub",
+      "role": "Junior Developer",
+      "startDate": "2019-03",
+      "endDate": "2020-05",
+      "description": "Worked on frontend features and bug fixes. Collaborated with design team.",
+      "skills": ["JavaScript", "React", "CSS", "HTML"],
+      "achievements": [
+        "Shipped 2 major features",
+        "Fixed 50+ bugs",
+        "Improved code quality"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "State University",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "graduationDate": "2019",
+      "description": "Focused on web development and software engineering."
+    },
+    {
+      "id": 2,
+      "institution": "Online Academy",
+      "degree": "Certification",
+      "field": "Full Stack Web Development",
+      "graduationDate": "2020",
+      "description": "Advanced course on MERN stack and best practices."
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "category": "Frontend",
+      "items": ["React", "TypeScript", "Tailwind CSS", "Redux", "Vite"]
+    },
+    {
+      "id": 2,
+      "category": "Backend",
+      "items": ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "GraphQL"]
+    },
+    {
+      "id": 3,
+      "category": "Tools",
+      "items": ["Git", "Docker", "AWS", "Figma", "Jira"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "Full-stack e-commerce platform with payment integration",
+      "link": "https://example.com",
+      "skills": ["React", "Node.js", "Stripe", "MongoDB"],
+      "year": "2023"
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "Real-time collaborative task management application",
+      "link": "https://example.com",
+      "skills": ["React", "WebSocket", "Firebase"],
+      "year": "2022"
+    }
+  ]
+}
